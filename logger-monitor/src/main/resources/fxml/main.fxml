@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTimePicker?>
+<?import com.jfoenix.controls.JFXTreeTableColumn?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fujitsu.MainController">
+   <children>
+      <JFXButton fx:id="jfxButtonStart" buttonType="RAISED" defaultButton="true" layoutX="617.0" layoutY="35.0" onMouseClicked="#buttonClick" prefHeight="39.0" prefWidth="89.0" ripplerFill="#7fe072" style="-fx-text-fill: WHITE; -fx-background-color: #5264AE;" text="开始" visible="false" />
+      <HBox layoutX="14.0" layoutY="45.0" prefHeight="23.0" prefWidth="299.0" visible="false">
+         <children>
+            <Label styleClass="text-label" text=" 开始时间" />
+            <JFXDatePicker fx:id="jfxDatePickerBegin" disable="true" prefHeight="24.0" prefWidth="113.0" />
+            <JFXTimePicker fx:id="jfxTimePickerBegin" prefHeight="24.0" prefWidth="105.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="306.0" layoutY="45.0" prefHeight="23.0" prefWidth="299.0" visible="false">
+         <children>
+            <Label styleClass="text-label" text="结束时间" />
+            <JFXDatePicker fx:id="jfxDatePickerEnd" prefHeight="24.0" prefWidth="113.0" />
+            <JFXTimePicker fx:id="jfxTimePickerEnd" prefHeight="24.0" prefWidth="105.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="29.0" layoutY="37.0" prefHeight="50.0" prefWidth="225.0">
+         <children>
+            <Label fx:id="treeTableViewCount" prefHeight="50.0" prefWidth="227.0" styleClass="title-label" />
+         </children>
+      </HBox>
+      <JFXTreeTableView fx:id="jfxTreeTableView" layoutX="29.0" layoutY="100.0" prefHeight="400.0" prefWidth="742.0">
+         <columns>
+            <JFXTreeTableColumn fx:id="jfxTreeTableColumnTime" prefWidth="122.66665649414062" style="-fx-alignment: center;" text="时间" />
+            <JFXTreeTableColumn fx:id="jfxTreeTableColumnPrint" prefWidth="137.33334350585938" style="-fx-alignment: center;" text="打印机" />
+            <JFXTreeTableColumn fx:id="jfxTreeTableColumnRecord" prefWidth="399.0" style="-fx-alignment: center-left;" text="打印内容" />
+            <JFXTreeTableColumn fx:id="jfxTreeTableColumnState" minWidth="0.0" prefWidth="70.0" style="-fx-alignment: center-left;" text="打印状态" />
+         </columns>
+      </JFXTreeTableView>
+   </children>
+   <stylesheets>
+      <URL value="@../css/jfoenix-components.css" />
+      <URL value="@../css/jfoenix-main-demo.css" />
+   </stylesheets>
+</AnchorPane>
