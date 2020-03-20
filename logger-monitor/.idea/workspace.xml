@@ -1,0 +1,1447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="日志监视">
+      <change afterPath="$PROJECT_DIR$/../activiti-sample/src/main/java/com/framework/activiti/service/AttendanceStatisticsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../activiti-sample/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../activiti-sample/src/main/resources/processes/leaderApproval.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../activiti-sample/src/test/java/com/framework/activiti/LeaveApprovalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_access_1_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_28_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jfoenix_jfoenix_8_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_jensd_fontawesomefx_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_datafx_core_8_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_datafx_datafx_8_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_datafx_flow_8_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger-monitor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/file.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../print-adapter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../print-adapter/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../print-adapter/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../print-adapter/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../print-adapter/logs/file.2019-10-09.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../print-adapter/logs/file.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../print-adapter/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../print-adapter/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/configration/DatabaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/configration/domain/AbstractModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/configration/domain/AppDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/configration/domain/AppModelDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/configration/domain/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/configration/domain/ModelHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/configration/domain/ModelInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/configration/domain/ModelRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/configration/domain/ModelRelationTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/configration/exception/BadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/configration/exception/BaseModelerRestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/configration/exception/ConflictingRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/configration/exception/ErrorInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/configration/exception/InternalServerErrorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/configration/exception/ModelErrorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/configration/exception/NonJsonResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/configration/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/configration/exception/NotPermittedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/configration/exception/UnauthorizedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/configration/properties/FlowableModelerAppProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/controller/AbstractModelBpmnResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/controller/AbstractModelHistoryResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/controller/EditorDisplayJsonClientResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/controller/FormResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/controller/FormsResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/controller/ModelBpmnResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/controller/ModelHistoryResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/controller/ModelRelationResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/controller/ModelResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/controller/ModelValidationRestResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/controller/ModelsResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/controller/StencilSetResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/model/AbstractRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/model/AppDefinitionListModelRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/model/BaseRestActionRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/model/FormSaveRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/model/ModelKeyRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/model/ModelRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/model/ResultListDataRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/model/ReviveModelResultRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/model/casemodel/CaseRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/model/decisiontable/DecisionTableDefinitionModelRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/model/decisiontable/DecisionTableDefinitionRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/model/decisiontable/DecisionTableExpressionRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/model/decisiontable/DecisionTableRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/model/form/ConditionOperators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/model/form/ConditionRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/model/form/FormRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/repository/ModelHistoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/repository/ModelHistoryRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/repository/ModelRelationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/repository/ModelRelationRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/repository/ModelRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/repository/ModelRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/repository/ModelSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/repository/UuidIdGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/service/FlowableFormService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/service/FlowableModelQueryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/service/ModelImageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/service/ModelRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/service/ModelServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/service/mapper/AbstractInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/service/mapper/EventInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/service/mapper/InfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/service/mapper/ReceiveTaskInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/service/mapper/ScriptTaskInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/service/mapper/SequenceFlowInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/service/mapper/ServiceTaskInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/service/mapper/UserTaskInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/serviceapi/AppDefinitionServiceRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/serviceapi/ModelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/util/BpmnDisplayJsonConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/util/CmmnDisplayJsonConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/util/ImageGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/java/com/framework/util/XmlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/META-INF/liquibase/flowable-modeler-app-db-changelog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/META-INF/modeler-mybatis-mappings/Model.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/META-INF/modeler-mybatis-mappings/ModelHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/META-INF/modeler-mybatis-mappings/ModelRelation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/properties/db2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/properties/h2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/properties/hsql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/properties/mssql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/properties/mysql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/properties/oracle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/properties/postgres.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/display-cmmn/cmmn-draw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/display-cmmn/cmmn-icons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/display-cmmn/displaymodel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/display-cmmn/displaymodel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/display-cmmn/displaymodel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/display/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/display/Gruntfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/display/Polyline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/display/bpmn-draw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/display/bpmn-icons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/display/displaymodel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/display/displaymodel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/display/displaymodel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/display/jquery.qtip.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/display/jquery.qtip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/display/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/display/raphael.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/flowable-header-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/flowable-toolbar-custom-actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-assignment-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-calledelementtype-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-case-reference-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-condition-expression-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-custom-controllers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-data-properties-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-decisiontable-reference-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-default-controllers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-duedate-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-event-listeners-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-execution-listeners-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-fields-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-form-properties-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-form-reference-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-httprequest-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-in-parameters-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-message-definitions-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-message-scope-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-multiinstance-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-ordering-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-out-parameters-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-plan-item-lifecycle-listeners-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-planitem-dropdown-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-process-historylevel-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-process-reference-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-sequenceflow-order-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-signal-definitions-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-signal-scope-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-task-listeners-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-transition-event-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties-trigger-mode-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/assignment-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/assignment-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/assignment-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/boolean-property-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/calledelementtype-property-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/case-reference-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/case-reference-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/case-reference-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/condition-expression-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/condition-expression-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/condition-expression-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/data-properties-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/data-properties-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/data-properties-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/decisiontable-reference-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/decisiontable-reference-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/decisiontable-reference-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/default-value-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/duedate-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/duedate-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/duedate-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/errorgrid-critical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/event-listeners-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/event-listeners-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/event-listeners-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/execution-listeners-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/execution-listeners-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/execution-listeners-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/feedback-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/fields-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/fields-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/fields-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/form-properties-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/form-properties-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/form-properties-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/form-reference-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/form-reference-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/form-reference-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/http-request-method-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/http-request-method-property-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/in-parameters-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/in-parameters-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/in-parameters-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/message-definitions-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/message-definitions-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/message-definitions-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/message-property-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/multiinstance-property-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/ordering-property-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/out-parameters-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/out-parameters-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/out-parameters-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/plan-item-lifecycle-listeners-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/plan-item-lifecycle-listeners-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/plan-item-lifecycle-listeners-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/planitem-dropdown-read-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/planitem-dropdown-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/process-historylevel-property-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/process-reference-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/process-reference-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/process-reference-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/sequenceflow-order-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/sequenceflow-order-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/sequenceflow-order-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/signal-definitions-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/signal-definitions-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/signal-definitions-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/signal-property-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/string-property-write-mode-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/task-listeners-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/task-listeners-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/task-listeners-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/text-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/text-property-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/transition-event-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/trigger-mode-read-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/properties/trigger-mode-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/toolbar-custom-actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/toolbar-default-actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/configuration/url-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/define-data-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/editor-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/editor-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/editor-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/editor/css/editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/editor/i18n/translation_de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/editor/i18n/translation_en_us.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/editor/i18n/translation_signavio_de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/editor/i18n/translation_signavio_en_us.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/editor/oryx.debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/editor/oryx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/editormanager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/eventbus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/fonts/activiti-admin-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/fonts/activiti-admin-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/fonts/activiti-admin-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/fonts/activiti-admin-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/header-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/images/bpmn-error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/images/bpmn-warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/images/datadefinition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/images/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/images/nw-handle-dark.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/images/pencil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/images/report_edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/images/se-handle-dark.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/images/shapemenu_highlight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/images/wrench.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/img-kis/add-bendpoint-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/img-kis/add-bendpoint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/img-kis/grid.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/img-kis/icon-add-bendpoint-selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/img-kis/icon-add-bendpoint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/img-kis/icon-align-horizontal-selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/img-kis/icon-align-horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/img-kis/icon-align-vertical-selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/img-kis/icon-align-vertical.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/img-kis/icon-remove-bendpoint-selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/img-kis/icon-remove-bendpoint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/img-kis/icon-same-size-selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/img-kis/icon-same-size.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/img-kis/icon-zoom-actual-selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/img-kis/icon-zoom-actual.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/img-kis/icon-zoom-fit-selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/img-kis/icon-zoom-fit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/img-kis/kis_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/img-kis/remove-bendpoint-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/img-kis/remove-bendpoint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/libs/jquery.autogrow-textarea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/libs/mousetrap/1.6.0/mousetrap-record.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/libs/mousetrap/1.6.0/mousetrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/libs/mousetrap/1.6.0/mousetrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/libs/path_parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/libs/prototype-1.6.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/libs/prototype-1.7.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/libs/ui-utils.min-0.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/libs/update-helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/partials/process-tree-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/partials/root-stencil-item-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/partials/stencil-item-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/plugins.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/popups/define-data.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/popups/icon-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/popups/save-model.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/popups/select-shape.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/popups/unsaved-changes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/popups/validate-model.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/process-navigator-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/select-shape-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencil-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/adhoc.subprocess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.collapsed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/expanded.subprocess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.business.rule.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.camel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.decision.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.http.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.manual.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.mule.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.receive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.script.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.send.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.shell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/subprocess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/task.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/artifact/text.annotation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/catching/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/catching/compensation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/catching/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/catching/message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/catching/signal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/catching/timer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/connector/association.undirected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/connector/association.unidirectional.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/connector/messageflow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/connector/sequenceflow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/dataobject/data.store.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/endevent/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/endevent/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/endevent/none.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/endevent/terminate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/gateway/eventbased.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/gateway/exclusive.databased.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/gateway/inclusive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/gateway/parallel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/startevent/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/startevent/message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/startevent/none.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/startevent/signal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/startevent/timer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/swimlane/lane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/swimlane/pool.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/throwing/none.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/throwing/signal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/cmmn1.1/icons/activity/casefileitem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/cmmn1.1/icons/activity/casetask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/cmmn1.1/icons/activity/collapsed.planfragment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/cmmn1.1/icons/activity/decisiontask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/cmmn1.1/icons/activity/expanded.planfragment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/cmmn1.1/icons/activity/httptask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/cmmn1.1/icons/activity/humantask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/cmmn1.1/icons/activity/milestone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/cmmn1.1/icons/activity/processtask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/cmmn1.1/icons/activity/scripttask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/cmmn1.1/icons/activity/servicetask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/cmmn1.1/icons/activity/task.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/cmmn1.1/icons/activity/timereventlistener.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/cmmn1.1/icons/connection/connector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/cmmn1.1/icons/containers/caseplanmodel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/cmmn1.1/icons/containers/collapsed.stage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/cmmn1.1/icons/containers/expanded.stage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/cmmn1.1/icons/event/eventlistener.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/cmmn1.1/icons/event/timerlistener.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/cmmn1.1/icons/event/userlistener.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/cmmn1.1/icons/sentry/entry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/cmmn1.1/icons/sentry/exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/cmmn1.1/icons/tables/planningtable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_action.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_action_container.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_alert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_case.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_checkbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_choices.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_combo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_date.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_form.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_hint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_input.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_item.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_itemset.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_label.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_number.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_paragraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_radiobutton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_range.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_repeat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_repeating_group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_secret.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_select1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_separator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_submit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_switch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_textarea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_trigger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/icons/new_upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/stencilsets/xforms/xforms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/toolbar-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/editor-app/tour.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/fonts/TitilliumWeb-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/fonts/TitilliumWeb-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/fonts/cherokee-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/fonts/cherokee-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/fonts/cherokee-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/fonts/cherokee-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/fonts/lato-bold-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/fonts/lato-bold-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/fonts/lato-bold-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/fonts/lato-bold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/fonts/lato-regular-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/fonts/lato-regular-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/fonts/lato-regular-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/fonts/lato-regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/i18n/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/i18n/es.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/i18n/fr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/i18n/pt-BR.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/i18n/zh-CN.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/android-chrome-384x384.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/flowable-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/flowable-logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/form-builder/amountfield-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/form-builder/booleanfield-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/form-builder/choicefield-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/form-builder/datefield-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/form-builder/decimalfield-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/form-builder/dropdownfield-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/form-builder/dynamic-table-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/form-builder/group-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/form-builder/headline-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/form-builder/headline-with-line-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/form-builder/horizontal-line-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/form-builder/hyperlink-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/form-builder/multi-line-textfield-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/form-builder/numberfield-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/form-builder/password-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/form-builder/peoplefield-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/form-builder/readonly-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/form-builder/readonly-text-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/form-builder/spacer-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/form-builder/textfield-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/form-builder/uploadfield-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/glasspane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/line-1px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/safari-pinned-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/tour/open-group.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/tour/sequenceflow-bendpoint.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/images/tour/tour-dnd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-animate_1.3.13/angular-animate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-animate_1.3.13/angular-animate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-animate_1.3.13/angular-animate.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-cookies_1.3.13/angular-cookies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-cookies_1.3.13/angular-cookies.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-cookies_1.3.13/angular-cookies.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-drag-and-drop-lists_1.2.0/angular-drag-and-drop-lists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-drag-and-drop-lists_1.2.0/angular-drag-and-drop-lists.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-dragdrop_1.0.11/angular-dragdrop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-dragdrop_1.0.11/angular-dragdrop.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-gridster_0.11.7/angular-gridster.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-gridster_0.11.7/angular-gridster.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-gridster_0.11.7/angular-gridster.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-hotkeys_1.4.5/hotkeys--activiti-patch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-hotkeys_1.4.5/hotkeys.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-hotkeys_1.4.5/hotkeys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-hotkeys_1.4.5/hotkeys.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-hotkeys_1.4.5/hotkeys.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-loading-bar-0.7.0/loading-bar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-loading-bar-0.7.0/loading-bar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-mocks_1.2.13/angular-mocks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-resource_1.3.13/angular-resource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-resource_1.3.13/angular-resource.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-resource_1.3.13/angular-resource.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-route_1.3.13/angular-route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-route_1.3.13/angular-route.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-route_1.3.13/angular-route.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-sanitize_1.3.13/angular-sanitize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-sanitize_1.3.13/angular-sanitize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-sanitize_1.3.13/angular-sanitize.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-scroll_0.5.7/angular-scroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-spectrum-colorpicker_1.0.13/angular-spectrum-colorpicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-spectrum-colorpicker_1.0.13/spectrum.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-spectrum-colorpicker_1.0.13/spectrum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-strap_2.1.6/angular-strap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-strap_2.1.6/angular-strap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-strap_2.1.6/angular-strap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-strap_2.1.6/angular-strap.tpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-strap_2.1.6/angular-strap.tpl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-translate-loader-static-files/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-translate-storage-cookie/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-translate-storage-cookie/angular-translate-storage-cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-translate-storage-cookie/angular-translate-storage-cookie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-translate_2.15.1/angular-translate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular-translate_2.15.1/angular-translate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular_1.3.13/angular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular_1.3.13/angular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angular_1.3.13/angular.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/angularjs-nvd3-directives_0.0.7/angular-nvd3-directives.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/autofill-events_1.0.0/autofill-event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/bootstrap-daterangepicker_1.3.7/daterangepicker-bs3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/bootstrap-daterangepicker_1.3.7/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/bootstrap-tour_0.9.1/bootstrap-tour.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/bootstrap-tour_0.9.1/bootstrap-tour.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/bootstrap-tour_0.9.1/bootstrap-tour.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/bootstrap_3.1.1/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/bootstrap_3.1.1/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/bootstrap_3.1.1/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/bootstrap_3.1.1/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/bootstrap_3.1.1/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/bootstrap_3.1.1/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/bootstrap_3.1.1/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/bootstrap_3.1.1/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/CHANGES" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/CONTRIBUTORS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/es5-sham.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/es5-sham.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/es5-sham.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/es5-shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/es5-shim.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/es5-shim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/tests/helpers/h-kill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/tests/helpers/h-matchers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/tests/helpers/h.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/tests/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/tests/index.min.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/tests/lib/jasmine-html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/tests/lib/jasmine.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/tests/lib/jasmine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/tests/lib/jasmine_favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/tests/lib/json2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/tests/spec/s-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/tests/spec/s-date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/tests/spec/s-function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/tests/spec/s-number.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/tests/spec/s-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/es5-shim-15.3.4.5/tests/spec/s-string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/handsontable_0.31.2/handsontable.full.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/handsontable_0.31.2/handsontable.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/html2canvas_0.4.1/html2canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/jquery-ui-1.10.3.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/jquery_1.11.0/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/jquery_1.11.0/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/jquery_1.11.0/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/json3_3.2.6/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/json3_3.2.6/lib/json3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/json3_3.2.6/lib/json3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/momentjs_2.18.1/momentjs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/ng-file-upload/FileAPI.flash.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/ng-file-upload/FileAPI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/ng-file-upload/FileAPI.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/ng-file-upload/ng-file-upload-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/ng-file-upload/ng-file-upload-all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/ng-file-upload/ng-file-upload-shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/ng-file-upload/ng-file-upload-shim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/ng-file-upload/ng-file-upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/ng-file-upload/ng-file-upload.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/ng-handsontable_0.13/ngHandsontable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/ng-handsontable_0.13/ngHandsontable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/nvd3_1.1.15-beta/nvd3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/nvd3_1.1.15-beta/nvd3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/sizzle_1.10.16/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/sizzle_1.10.16/tasks/commit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/sizzle_1.10.16/tasks/compile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/sizzle_1.10.16/tasks/dist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/sizzle_1.10.16/tasks/release.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/sizzle_1.10.16/tasks/tag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/sizzle_1.10.16/tasks/version.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/sizzle_1.10.16/test/data/empty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/sizzle_1.10.16/test/data/mixed_sort.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/sizzle_1.10.16/test/data/testinit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/sizzle_1.10.16/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/sizzle_1.10.16/test/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/sizzle_1.10.16/test/libs/qunit/qunit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/sizzle_1.10.16/test/libs/qunit/qunit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/sizzle_1.10.16/test/unit/extending.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/sizzle_1.10.16/test/unit/selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/sizzle_1.10.16/test/unit/utilities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/ui-grid_3.0.0/ui-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/ui-grid_3.0.0/ui-grid.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/ui-grid_3.0.0/ui-grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/ui-grid_3.0.0/ui-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/ui-grid_3.0.0/ui-grid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/ui-grid_3.0.0/ui-grid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/ui-grid_3.0.0/ui-grid.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/libs/ui-grid_3.0.0/ui-grid.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/app-cfg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/common/controllers/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/common/directives.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/common/providers-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/common/services/recursion-helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/common/services/resource-service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/configuration/app-definition-toolbar-default-actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/configuration/app-definition-toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/configuration/decision-table-toolbar-default-actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/configuration/decision-table-toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/configuration/form-builder-toolbar-default-actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/configuration/form-builder-toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/configuration/url-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/controllers/app-definition-builder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/controllers/app-definition-toolbar-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/controllers/app-definition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/controllers/app-definitions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/controllers/casemodel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/controllers/casemodels.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/controllers/decision-table-editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/controllers/decision-table-toolbar-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/controllers/decision-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/controllers/decision-tables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/controllers/form-builder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/controllers/form-readonly-view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/controllers/form-toolbar-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/controllers/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/controllers/forms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/controllers/model-common-actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/controllers/process.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/controllers/processes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/editor-directives.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/resource-loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/services/decision-table-service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/services/form-services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/services/identity-services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/scripts/services/util-services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/styles/common/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/styles/common/style-retina.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/styles/common/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/styles/style-editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/app-definition-builder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/app-definition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/app-definitions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/casemodel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/casemodels.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/decision-table-editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/decision-table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/decision-tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/form-builder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/forms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popover/formfield-edit-popover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popover/history.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popover/select-app-icon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popover/select-app-theme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popover/select-group-popover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/app-definition-create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/app-definition-delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/app-definition-duplicate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/app-definition-import.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/app-definition-models-included.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/app-definition-publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/app-definition-save-model.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/app-definitions-import.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/casemodel-create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/casemodel-duplicate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/casemodel-import.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/decision-table-create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/decision-table-duplicate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/decision-table-edit-hit-policy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/decision-table-edit-input-expression.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/decision-table-edit-output-expression.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/decision-table-import.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/decision-table-save-model.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/form-create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/form-duplicate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/form-save-model.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/model-delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/model-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/model-use-as-new-version.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/process-create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/process-duplicate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/process-import.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/popup/subprocess-create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/process.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/processes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/templates/decision-table-header-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/templates/decision-table-headercell-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/static/views/templates/form-builder-element-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/stencilset_bpmn.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/main/resources/stencilset_cmmn.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/test/java/com/framework/BpmnDynamicServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/test/java/com/framework/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/test/java/com/framework/DynamicFormTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/test/java/com/framework/FlowableDeployTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-flowable-modeler/src/test/java/com/framework/FlowableTest.java" afterDir="false" />
+    </list>
+    <ignored path="JavaFxApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>main</find>
+      <find>custom-jfx-button-raised</find>
+      <find>title-label</find>
+      <find>left</find>
+      <find>javafx.css</find>
+      <find>right</find>
+      <find>jfxTreeTableColumnRecord</find>
+      <find>jfxTreeTableColumnTime</find>
+    </findStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fujitsu/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/main.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/css/jfoenix-main-demo.css" />
+        <option value="$PROJECT_DIR$/src/test/java/x1.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fujitsu/Content.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fujitsu/MainController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="logger-monitor" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="logger-monitor" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="width" value="1380" />
+    <option name="height" value="696" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="logger-monitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logger-monitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logger-monitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logger-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logger-monitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logger-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logger-monitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logger-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="D:/_SVN/QiXing_SVN/TaharaPg2.0/qixingTaharaExec/Universal-framwork-fx" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\_GIT\logger-monitor\src\deploy" />
+      <recent name="D:\_GIT\logger-monitor\src\main\resources" />
+      <recent name="D:\_GIT\logger-monitor\src\main\resources\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\_GIT\logger-monitor\src\main\resources\fxml" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.fujitsu.Main" />
+      <module name="logger-monitor" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fujitsu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="x1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="x1" />
+      <module name="logger-monitor" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.x1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+    </task>
+    <task id="LOCAL-00001" summary="日志监视">
+      <created>1570697405223</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570697405223</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1302000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="672" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.29991916" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32777777" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4962963" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" weight="0.32962963" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32962963" />
+      <window_info anchor="bottom" id="Terminal" order="14" visible="true" weight="0.29814816" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.2497979" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.32983023" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32983023" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2950687" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32777777" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4962963" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" weight="0.32962963" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32962963" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32962963" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.2497979" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.32983023" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32983023" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <MESSAGE value="日志监视" />
+    <option name="LAST_COMMIT_MESSAGE" value="日志监视" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="jfxTreeTableView.getSelectionModel().getSelectedItem()" />
+        <watch expression="jfxTreeTableView.getSelectionModel()" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/logger_monitor$Main.ic" NAME="Main Coverage Results" MODIFIED="1570630598262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.fujitsu.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>logFile.exists()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>logFile.length()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>jfxTimePickerBegin.valueProperty()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>jfxTimePickerBegin.valueProperty().get()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>object.getHour()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_202/src.zip!/java/io/RandomAccessFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="552" column="16" selection-start-line="552" selection-start-column="16" selection-end-line="552" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_202/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="965" column="16" selection-start-line="965" selection-start-column="16" selection-end-line="965" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/css/jfoenix-main-demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="285" column="34" selection-start-line="285" selection-start-column="29" selection-end-line="285" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_202/javafx-src.zip!/com/sun/javafx/css/parser/Css2Bin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/css/jfoenix-components.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_202/javafx-src.zip!/javafx/geometry/Pos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="59" column="15" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="1152" column="15" selection-start-line="1152" selection-start-column="15" selection-end-line="1152" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_202/src.zip!/java/time/LocalDateTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="489" column="31" selection-start-line="489" selection-start-column="18" selection-end-line="489" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="211" column="23" selection-start-line="211" selection-start-column="23" selection-end-line="211" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_202/javafx-src.zip!/javafx/concurrent/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="657" column="8" selection-start-line="657" selection-start-column="8" selection-end-line="657" selection-end-column="8" />
+          <folding>
+            <element signature="e#28133#28134#0" expanded="true" />
+            <element signature="e#28176#28177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_202/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="819" column="16" selection-start-line="819" selection-start-column="16" selection-end-line="819" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/x1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fujitsu/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="8" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/jfx/native/logger-monitor-1.0-SNAPSHOT/logger-monitor-1.0-SNAPSHOT.ico" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fujitsu/Content.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fujitsu/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-139">
+          <caret line="178" column="21" selection-start-line="178" selection-start-column="21" selection-end-line="178" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/main.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>logger-monitor</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

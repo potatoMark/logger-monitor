@@ -1,0 +1,5 @@
+16:35:23.654[main][INFO ]Starting PrintAdapterApplicationTests on DESKTOP-CKOOEP6 with PID 21724 (started by mark in D:\_GIT\print-adapter)||  c.f.PrintAdapterApplicationTests.logStarting:50:
+16:35:23.658[main][INFO ]No active profile set, falling back to default profiles: default||  c.f.PrintAdapterApplicationTests.logStartupProfileInfo:648:
+16:35:24.041[main][INFO ]Started PrintAdapterApplicationTests in 0.549 seconds (JVM running for 1.303)||  c.f.PrintAdapterApplicationTests.logStarted:59:
+16:35:24.043[main][INFO ]开始创建socket||  c.f.b.MesToAdapterBusiness.start:42:
+16:35:24.045[main][INFO ]Socket服务创建成功||  c.f.b.MesToAdapterBusiness.start:54:

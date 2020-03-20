@@ -1,0 +1,779 @@
+09:40:30.993[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 15244 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+09:40:30.996[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+09:40:31.593[main][INFO ]Started PrintAdapterApplication in 0.903 seconds (JVM running for 1.741)  c.f.PrintAdapterApplication.logStarted:59:
+11:27:16.961[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 5552 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+11:27:16.963[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+11:27:17.557[main][INFO ]Started PrintAdapterApplication in 0.911 seconds (JVM running for 1.609)  c.f.PrintAdapterApplication.logStarted:59:
+11:27:17.558[main][INFO ]开始创建socket  c.f.b.MesToAdapterBusiness.start:43:
+11:27:17.562[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:55:
+11:27:39.362[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 14796 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+11:27:39.365[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+11:27:39.903[main][INFO ]Started PrintAdapterApplication in 0.844 seconds (JVM running for 1.567)  c.f.PrintAdapterApplication.logStarted:59:
+11:27:39.904[main][INFO ]开始创建socket  c.f.b.MesToAdapterBusiness.start:43:
+11:27:39.908[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:55:
+11:28:25.552[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:58:
+11:28:25.556[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:55:
+11:28:25.557[pool-2-thread-1][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+11:28:30.576[pool-2-thread-1][ERROR]发生系统异常  c.f.j.MesToAdapterJob.run:109:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:127)
+	at com.fujitsu.job.MesToAdapterJob.run(MesToAdapterJob.java:59)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11:28:38.299[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:58:
+11:28:38.300[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:55:
+11:28:38.300[pool-2-thread-2][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+11:28:43.301[pool-2-thread-2][ERROR]发生系统异常  c.f.j.MesToAdapterJob.run:109:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:127)
+	at com.fujitsu.job.MesToAdapterJob.run(MesToAdapterJob.java:59)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11:28:45.519[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:58:
+11:28:45.520[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:55:
+11:28:45.520[pool-2-thread-3][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+11:28:50.520[pool-2-thread-3][ERROR]发生系统异常  c.f.j.MesToAdapterJob.run:109:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:127)
+	at com.fujitsu.job.MesToAdapterJob.run(MesToAdapterJob.java:59)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11:28:55.983[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:58:
+11:28:55.984[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:55:
+11:28:55.984[pool-2-thread-4][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+11:28:56.690[pool-2-thread-4][INFO ]收到电文内容:abc       8902,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:69:
+11:28:56.697[pool-2-thread-4][ERROR]当前打印机未配置远程CBOP的IP,打印机名称:abc  c.f.j.MesToAdapterJob.run:79:
+11:29:44.739[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:58:
+11:29:44.740[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:55:
+11:29:44.740[pool-2-thread-5][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+11:29:49.741[pool-2-thread-5][ERROR]发生系统异常  c.f.j.MesToAdapterJob.run:109:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:127)
+	at com.fujitsu.job.MesToAdapterJob.run(MesToAdapterJob.java:59)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11:29:54.070[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:58:
+11:29:54.071[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:55:
+11:29:54.071[pool-2-thread-6][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+11:29:54.717[pool-2-thread-6][INFO ]收到电文内容:abc       890,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:69:
+11:30:04.153[pool-2-thread-6][ERROR]当前打印机未配置远程CBOP的IP,打印机名称:abc  c.f.j.MesToAdapterJob.run:79:
+11:30:17.493[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:58:
+11:30:26.550[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:55:
+11:30:26.551[pool-2-thread-7][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+11:30:31.552[pool-2-thread-7][ERROR]发生系统异常  c.f.j.MesToAdapterJob.run:109:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:127)
+	at com.fujitsu.job.MesToAdapterJob.run(MesToAdapterJob.java:59)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11:32:40.969[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 5584 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+11:32:40.972[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+11:32:41.562[main][ERROR]
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field environment in com.fujitsu.business.MesToAdapterBusiness required a bean of type 'org.omg.CORBA.Environment' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.omg.CORBA.Environment' in your configuration.
+  o.s.b.d.LoggingFailureAnalysisReporter.report:40:
+11:33:08.141[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 10504 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+11:33:08.143[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+11:33:08.692[main][INFO ]Started PrintAdapterApplication in 0.878 seconds (JVM running for 1.662)  c.f.PrintAdapterApplication.logStarted:59:
+11:33:08.693[main][INFO ]开始创建socket  c.f.b.MesToAdapterBusiness.start:46:
+11:33:08.697[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:58:
+11:33:22.768[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:61:
+11:33:22.775[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:58:
+11:33:22.776[pool-2-thread-1][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+11:33:27.781[pool-2-thread-1][ERROR]发生系统异常  c.f.j.MesToAdapterJob.run:109:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:127)
+	at com.fujitsu.job.MesToAdapterJob.run(MesToAdapterJob.java:59)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11:33:29.797[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:61:
+11:34:38.997[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:58:
+11:34:38.998[pool-2-thread-2][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+11:34:49.604[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 10176 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+11:34:49.607[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+11:34:50.122[main][INFO ]Started PrintAdapterApplication in 0.816 seconds (JVM running for 1.513)  c.f.PrintAdapterApplication.logStarted:59:
+11:34:50.123[main][INFO ]开始创建socket  c.f.b.MesToAdapterBusiness.start:43:
+11:34:50.126[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:55:
+11:35:00.185[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:58:
+11:35:09.991[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:55:
+11:35:09.993[pool-2-thread-1][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+11:35:34.111[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 8600 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+11:35:34.114[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+11:35:34.634[main][INFO ]Started PrintAdapterApplication in 0.826 seconds (JVM running for 1.507)  c.f.PrintAdapterApplication.logStarted:59:
+11:35:34.635[main][INFO ]开始创建socket  c.f.b.MesToAdapterBusiness.start:43:
+11:35:34.638[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:55:
+11:35:37.594[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:58:
+11:35:42.645[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:55:
+11:35:42.648[pool-2-thread-1][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+11:36:13.576[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 13584 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+11:36:13.579[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+11:36:14.094[main][INFO ]Started PrintAdapterApplication in 0.84 seconds (JVM running for 1.555)  c.f.PrintAdapterApplication.logStarted:59:
+11:36:14.095[main][INFO ]开始创建socket  c.f.b.MesToAdapterBusiness.start:43:
+11:36:14.098[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:55:
+11:36:35.675[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 15220 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+11:36:35.677[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+11:36:36.225[main][INFO ]Started PrintAdapterApplication in 0.899 seconds (JVM running for 1.572)  c.f.PrintAdapterApplication.logStarted:59:
+11:36:36.226[main][INFO ]开始创建socket  c.f.b.MesToAdapterBusiness.start:43:
+11:36:36.229[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:55:
+11:36:39.477[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:58:
+11:36:54.750[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:55:
+11:36:54.752[pool-2-thread-1][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+11:37:39.129[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 1160 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+11:37:39.131[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+11:38:16.380[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 8340 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+11:38:16.383[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+11:38:16.775[main][ERROR]Application run failed  o.s.b.SpringApplication.reportFailure:823:
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'printAdapterApplication': Unsatisfied dependency expressed through field 'mesToAdapterBusiness'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mesToAdapterBusiness': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'adapter.cbopx' in value "${adapter.cbopx}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.fujitsu.PrintAdapterApplication.main(PrintAdapterApplication.java:17)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mesToAdapterBusiness': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'adapter.cbopx' in value "${adapter.cbopx}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1255)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 18 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'adapter.cbopx' in value "${adapter.cbopx}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	... 29 common frames omitted
+11:38:37.888[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 15040 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+11:38:37.890[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+11:38:38.352[main][ERROR]Application run failed  o.s.b.SpringApplication.reportFailure:823:
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'printAdapterApplication': Unsatisfied dependency expressed through field 'mesToAdapterBusiness'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mesToAdapterBusiness': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'adapter.cbopx' in value "${adapter.cbopx}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.fujitsu.PrintAdapterApplication.main(PrintAdapterApplication.java:17)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mesToAdapterBusiness': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'adapter.cbopx' in value "${adapter.cbopx}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1255)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 18 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'adapter.cbopx' in value "${adapter.cbopx}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	... 29 common frames omitted
+11:40:43.175[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 9008 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+11:40:43.177[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+11:40:43.596[main][ERROR]Application run failed  o.s.b.SpringApplication.reportFailure:823:
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'printAdapterApplication': Unsatisfied dependency expressed through field 'mesToAdapterBusiness'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mesToAdapterBusiness': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'adapter.cbopx' in value "${adapter.cbopx}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.fujitsu.PrintAdapterApplication.main(PrintAdapterApplication.java:17)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mesToAdapterBusiness': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'adapter.cbopx' in value "${adapter.cbopx}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1255)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 18 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'adapter.cbopx' in value "${adapter.cbopx}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	... 29 common frames omitted
+11:41:09.831[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 1820 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+11:41:09.834[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+11:41:10.604[main][INFO ]Started PrintAdapterApplication in 1.092 seconds (JVM running for 1.82)  c.f.PrintAdapterApplication.logStarted:59:
+11:41:10.605[main][INFO ]开始创建socket  c.f.b.MesToAdapterBusiness.start:45:
+11:41:10.607[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:57:
+11:41:24.111[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 14636 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+11:41:24.114[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+11:41:24.662[main][INFO ]Started PrintAdapterApplication in 0.875 seconds (JVM running for 1.598)  c.f.PrintAdapterApplication.logStarted:59:
+11:41:24.664[main][INFO ]开始创建socket  c.f.b.MesToAdapterBusiness.start:45:
+11:41:24.667[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:57:
+11:41:26.959[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:60:
+11:41:26.965[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:57:
+11:41:26.967[pool-2-thread-1][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+11:41:28.037[pool-2-thread-1][INFO ]收到电文内容:abc       8902,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:69:
+11:41:45.395[pool-2-thread-1][ERROR]发生系统异常  c.f.j.MesToAdapterJob.run:109:
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.fujitsu.job.MesToAdapterJob.run(MesToAdapterJob.java:86)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11:41:59.717[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:60:
+11:41:59.718[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:57:
+11:41:59.718[pool-2-thread-2][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+11:42:04.719[pool-2-thread-2][ERROR]发生系统异常  c.f.j.MesToAdapterJob.run:109:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:127)
+	at com.fujitsu.job.MesToAdapterJob.run(MesToAdapterJob.java:59)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+12:01:27.832[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 13408 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+12:01:27.835[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+12:01:28.411[main][INFO ]Started PrintAdapterApplication in 0.931 seconds (JVM running for 1.675)  c.f.PrintAdapterApplication.logStarted:59:
+12:01:28.412[main][INFO ]开始创建socket  c.f.b.MesToAdapterBusiness.start:42:
+12:01:28.415[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+12:01:33.283[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:57:
+12:01:33.292[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+12:01:33.293[pool-2-thread-1][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+12:01:34.093[pool-2-thread-1][INFO ]收到电文内容:130T      Standardlabelcouple 01Print     008                    P00011001 P0002000821000572P00030021210005721904Z21000424P000400102019-04-16P00051001 P0006000821000009P00070021210000091904Z21000426P000800102019-04-16,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:69:
+12:01:48.660[pool-2-thread-1][ERROR]发生系统异常  c.f.j.MesToAdapterJob.run:109:
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.fujitsu.job.MesToAdapterJob.run(MesToAdapterJob.java:86)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+12:08:09.908[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:57:
+12:08:09.909[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+12:08:09.909[pool-2-thread-2][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+12:08:11.272[pool-2-thread-2][INFO ]收到电文内容:130T      Standardlabelcouple 01Print     008                    P00011001 P0002000821000572P00030021210005721904Z21000424P000400102019-04-16P00051001 P0006000821000009P00070021210000091904Z21000426P000800102019-04-16,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:69:
+12:08:16.366[pool-2-thread-2][ERROR]发生系统异常  c.f.j.MesToAdapterJob.run:109:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:127)
+	at com.fujitsu.job.MesToAdapterJob.run(MesToAdapterJob.java:96)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+12:08:37.532[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 7564 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+12:08:37.535[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+12:08:38.072[main][INFO ]Started PrintAdapterApplication in 0.843 seconds (JVM running for 1.527)  c.f.PrintAdapterApplication.logStarted:59:
+12:08:38.073[main][INFO ]开始创建socket  c.f.b.MesToAdapterBusiness.start:42:
+12:08:38.076[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+12:08:42.461[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:57:
+12:08:42.465[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+12:08:42.467[pool-2-thread-1][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+12:08:44.425[pool-2-thread-1][INFO ]收到电文内容:130T      Standardlabelcouple 01Print     008                    P00011001 P0002000821000572P00030021210005721904Z21000424P000400102019-04-16P00051001 P0006000821000009P00070021210000091904Z21000426P000800102019-04-16,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:69:
+12:08:49.552[pool-2-thread-1][ERROR]发生系统异常  c.f.j.MesToAdapterJob.run:109:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:127)
+	at com.fujitsu.job.MesToAdapterJob.run(MesToAdapterJob.java:96)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+12:09:36.477[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 13616 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+12:09:36.480[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+12:09:37.027[main][INFO ]Started PrintAdapterApplication in 0.856 seconds (JVM running for 1.548)  c.f.PrintAdapterApplication.logStarted:59:
+12:09:37.028[main][INFO ]开始创建socket  c.f.b.MesToAdapterBusiness.start:42:
+12:09:37.031[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+12:09:40.882[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:57:
+12:09:40.887[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+12:09:40.889[pool-2-thread-1][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+12:09:41.726[pool-2-thread-1][INFO ]收到电文内容:130T      Standardlabelcouple 01Print     008                    P00011001 P0002000821000572P00030021210005721904Z21000424P000400102019-04-16P00051001 P0006000821000009P00070021210000091904Z21000426P000800102019-04-16,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:69:
+12:09:47.294[pool-2-thread-1][ERROR]发生系统异常  c.f.j.MesToAdapterJob.run:110:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:127)
+	at com.fujitsu.job.MesToAdapterJob.run(MesToAdapterJob.java:97)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+12:09:55.066[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:57:
+12:09:55.066[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+12:09:55.067[pool-2-thread-2][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+12:09:56.883[pool-2-thread-2][INFO ]收到电文内容:130T      Standardlabelcouple 01Print     008                    P00011001 P0002000821000572P00030021210005721904Z21000424P000400102019-04-16P00051001 P0006000821000009P00070021210000091904Z21000426P000800102019-04-16,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:69:
+12:10:02.436[pool-2-thread-2][ERROR]发生系统异常  c.f.j.MesToAdapterJob.run:110:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:127)
+	at com.fujitsu.job.MesToAdapterJob.run(MesToAdapterJob.java:97)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+12:10:45.477[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:57:
+12:10:45.478[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+12:10:45.478[pool-2-thread-3][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+12:10:47.326[pool-2-thread-3][INFO ]收到电文内容:130T      Standardlabelcouple 01Print     008                    P00011001 P0002000821000572P00030021210005721904Z21000424P000400102019-04-16P00051001 P0006000821000009P00070021210000091904Z21000426P000800102019-04-16,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:69:
+12:11:17.288[pool-2-thread-3][ERROR]发生系统异常  c.f.j.MesToAdapterJob.run:110:
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.fujitsu.job.MesToAdapterJob.run(MesToAdapterJob.java:86)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+12:11:42.230[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 7580 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+12:11:42.233[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+12:11:42.798[main][INFO ]Started PrintAdapterApplication in 0.884 seconds (JVM running for 1.608)  c.f.PrintAdapterApplication.logStarted:59:
+12:11:42.800[main][INFO ]开始创建socket  c.f.b.MesToAdapterBusiness.start:42:
+12:11:42.802[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+12:11:45.676[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:57:
+12:11:45.684[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+12:11:45.686[pool-2-thread-1][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+12:11:46.992[pool-2-thread-1][INFO ]收到电文内容:130T      Standardlabelcouple 01Print     008                    P00011001 P0002000821000572P00030021210005721904Z21000424P000400102019-04-16P00051001 P0006000821000009P00070021210000091904Z21000426P000800102019-04-16,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:69:
+12:11:59.927[pool-2-thread-1][ERROR]发生系统异常  c.f.j.MesToAdapterJob.run:109:
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.fujitsu.job.MesToAdapterJob.run(MesToAdapterJob.java:86)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+12:13:43.124[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:57:
+12:13:43.125[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+12:13:43.125[pool-2-thread-2][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+12:13:44.644[pool-2-thread-2][INFO ]收到电文内容:130T      Standardlabelcouple 01Print     008                    P00011001 P0002000821000572P00030021210005721904Z21000424P000400102019-04-16P00051001 P0006000821000009P00070021210000091904Z21000426P000800102019-04-16,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:69:
+12:14:10.816[pool-2-thread-2][ERROR]发生系统异常  c.f.j.MesToAdapterJob.run:109:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:127)
+	at com.fujitsu.job.MesToAdapterJob.run(MesToAdapterJob.java:96)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+12:14:29.326[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:57:
+12:14:29.327[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+12:14:29.327[pool-2-thread-3][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+12:14:31.087[pool-2-thread-3][INFO ]收到电文内容:130T      Standardlabelcouple 01Print     008                    P00011001 P0002000821000572P00030021210005721904Z21000424P000400102019-04-16P00051001 P0006000821000009P00070021210000091904Z21000426P000800102019-04-16,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:69:
+12:14:46.256[pool-2-thread-3][INFO ]收到电文CBOP应答电文:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 c.f.j.MesToAdapterJob.run:103:
+13:25:06.658[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 8484 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+13:25:06.661[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+13:25:07.493[main][INFO ]Started PrintAdapterApplication in 1.27 seconds (JVM running for 2.248)  c.f.PrintAdapterApplication.logStarted:59:
+13:25:07.494[main][INFO ]开始创建socket  c.f.b.MesToAdapterBusiness.start:42:
+13:25:07.497[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+13:41:58.514[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:57:
+13:41:58.523[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+13:41:58.525[pool-2-thread-1][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+13:41:59.139[pool-2-thread-1][INFO ]远程主动断开连接,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:63:
+13:42:01.488[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:57:
+13:42:01.488[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+13:42:01.489[pool-2-thread-2][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+13:42:01.908[pool-2-thread-2][INFO ]远程主动断开连接,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:63:
+14:08:02.564[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 11384 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+14:08:02.566[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+14:08:03.146[main][INFO ]Started PrintAdapterApplication in 0.879 seconds (JVM running for 1.495)  c.f.PrintAdapterApplication.logStarted:59:
+14:08:03.147[main][INFO ]开始创建socket  c.f.b.MesToAdapterBusiness.start:42:
+14:08:03.150[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+14:08:13.907[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:57:
+14:08:13.916[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+14:08:13.918[pool-2-thread-1][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+14:08:15.265[pool-2-thread-1][INFO ]收到电文内容:130T      Standardlabelcouple 01Print     008                    P00011001 P0002000821000572P00030021210005721904Z21000424P000400102019-04-16P00051001 P0006000821000009P00070021210000091904Z21000426P000800102019-04-16,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:69:
+14:08:23.581[pool-2-thread-1][ERROR]发生系统异常  c.f.j.MesToAdapterJob.run:109:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:127)
+	at com.fujitsu.job.MesToAdapterJob.run(MesToAdapterJob.java:96)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+14:08:55.658[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 7248 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+14:08:55.661[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+14:08:56.286[main][INFO ]Started PrintAdapterApplication in 0.954 seconds (JVM running for 1.73)  c.f.PrintAdapterApplication.logStarted:59:
+14:08:56.287[main][INFO ]开始创建socket  c.f.b.MesToAdapterBusiness.start:42:
+14:08:56.289[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+14:09:27.296[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:57:
+14:09:27.299[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+14:09:27.301[pool-2-thread-1][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+14:09:32.304[pool-2-thread-1][ERROR]发生系统异常  c.f.j.MesToAdapterJob.run:109:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:127)
+	at com.fujitsu.job.MesToAdapterJob.run(MesToAdapterJob.java:59)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+14:09:34.044[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:57:
+14:09:34.045[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+14:09:34.045[pool-2-thread-2][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+14:09:37.815[pool-2-thread-2][INFO ]收到电文内容:130T      Standardlabelcouple 01Print     008                    P00011001 P0002000821000572P00030021210005721904Z21000424P000400102019-04-16P00051001 P0006000821000009P00070021210000091904Z21000426P000800102019-04-16,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:69:
+14:09:37.830[pool-2-thread-2][INFO ]收到电文CBOP应答电文:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 c.f.j.MesToAdapterJob.run:103:
+14:10:13.912[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 14796 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+14:10:13.915[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+14:10:14.485[main][INFO ]Started PrintAdapterApplication in 0.927 seconds (JVM running for 1.62)  c.f.PrintAdapterApplication.logStarted:59:
+14:10:14.486[main][INFO ]开始创建socket  c.f.b.MesToAdapterBusiness.start:42:
+14:10:14.489[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+14:10:21.425[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:57:
+14:10:21.431[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+14:10:21.432[pool-2-thread-1][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+14:10:22.771[pool-2-thread-1][INFO ]收到电文内容:130T      Standardlabelcouple 01Print     008                    P00011001 P0002000821000572P00030021210005721904Z21000424P000400102019-04-16P00051001 P0006000821000009P00070021210000091904Z21000426P000800102019-04-16,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:69:
+14:10:24.280[pool-2-thread-1][INFO ]收到电文CBOP应答电文:130T      NG                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     c.f.j.MesToAdapterJob.run:103:
+14:18:44.337[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 13284 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+14:18:44.340[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+14:18:45.004[main][INFO ]Started PrintAdapterApplication in 1.032 seconds (JVM running for 2.296)  c.f.PrintAdapterApplication.logStarted:59:
+14:18:45.005[main][INFO ]开始创建socket  c.f.b.MesToAdapterBusiness.start:42:
+14:18:45.009[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+14:18:50.768[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:57:
+14:18:50.771[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+14:18:50.773[pool-2-thread-1][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+14:18:52.239[pool-2-thread-1][INFO ]收到电文内容:130T      Standardlabelcouple 01Print     008                    P00011001 P0002000821000572P00030021210005721904Z21000424P000400102019-04-16P00051001 P0006000821000009P00070021210000091904Z21000426P000800102019-04-16,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:69:
+14:18:52.285[pool-2-thread-1][INFO ]收到电文CBOP应答电文:130T      St  c.f.j.MesToAdapterJob.run:105:
+14:19:01.721[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:57:
+14:19:01.722[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+14:19:01.722[pool-2-thread-2][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+14:19:03.202[pool-2-thread-2][INFO ]收到电文内容:130T      Standardlabelcouple 01Print     008                    P00011001 P0002000821000572P00030021210005721904Z21000424P000400102019-04-16P00051001 P0006000821000009P00070021210000091904Z21000426P000800102019-04-16,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:69:
+14:19:03.225[pool-2-thread-2][INFO ]收到电文CBOP应答电文:130T      St  c.f.j.MesToAdapterJob.run:105:
+14:28:16.069[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:57:
+14:28:16.070[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+14:28:16.070[pool-2-thread-3][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+14:28:17.656[pool-2-thread-3][INFO ]收到电文内容:130T      Standardlabelcouple 01Print     008                    P00011001 P0002000821000572P00030021210005721904Z21000424P000400102019-04-16P00051001 P0006000821000009P00070021210000091904Z21000426P000800102019-04-16,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:69:
+14:28:18.916[pool-2-thread-3][INFO ]收到电文CBOP应答电文:130T      St  c.f.j.MesToAdapterJob.run:105:
+14:28:56.336[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:57:
+14:28:56.337[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+14:28:56.337[pool-2-thread-4][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+14:28:57.782[pool-2-thread-4][INFO ]收到电文内容:130T      Standardlabelcouple 01Print     008                    P00011001 P0002000821000572P00030021210005721904Z21000424P000400102019-04-16P00051001 P0006000821000009P00070021210000091904Z21000426P000800102019-04-16,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:69:
+14:28:57.813[pool-2-thread-4][INFO ]收到电文CBOP应答电文:130T      St  c.f.j.MesToAdapterJob.run:105:
+14:29:57.212[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 8824 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)  c.f.PrintAdapterApplication.logStarting:50:
+14:29:57.214[main][INFO ]No active profile set, falling back to default profiles: default  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+14:29:57.749[main][INFO ]Started PrintAdapterApplication in 0.843 seconds (JVM running for 1.528)  c.f.PrintAdapterApplication.logStarted:59:
+14:29:57.750[main][INFO ]开始创建socket  c.f.b.MesToAdapterBusiness.start:42:
+14:29:57.752[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+14:31:55.893[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:57:
+14:31:55.897[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+14:31:55.899[pool-2-thread-1][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+14:32:00.904[pool-2-thread-1][ERROR]发生系统异常  c.f.j.MesToAdapterJob.run:111:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:127)
+	at com.fujitsu.job.MesToAdapterJob.run(MesToAdapterJob.java:59)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+14:32:01.898[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:57:
+14:32:01.899[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+14:32:01.899[pool-2-thread-2][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+14:32:04.752[pool-2-thread-2][INFO ]收到电文内容:130T      Standardlabelcouple 01Print     008                    P00011001 P0002000821000572P00030021210005721904Z21000424P000400102019-04-16P00051001 P0006000821000009P00070021210000091904Z21000426P000800102019-04-16,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:69:
+14:32:04.807[pool-2-thread-2][INFO ]收到电文CBOP应答电文:130T      NG  c.f.j.MesToAdapterJob.run:105:
+14:32:24.161[main][INFO ]IP:127.0.0.1,成功连接到服务器  c.f.b.MesToAdapterBusiness.start:57:
+14:32:24.161[main][INFO ]Socket服务创建成功  c.f.b.MesToAdapterBusiness.start:54:
+14:32:24.162[pool-2-thread-3][INFO ]开始接收电文,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:57:
+14:32:25.365[pool-2-thread-3][INFO ]收到电文内容:130T      Standardlabelcouple 01Print     008                    P00011001 P0002000821000572P00030021210005721904Z21000424P000400102019-04-16P00051001 P0006000821000009P00070021210000091904Z21000426P000800102019-04-16,IP:127.0.0.1  c.f.j.MesToAdapterJob.run:69:
+14:32:25.389[pool-2-thread-3][INFO ]收到电文CBOP应答电文:130T      NG  c.f.j.MesToAdapterJob.run:105:
+14:33:39.796[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 15988 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)|||  c.f.PrintAdapterApplication.logStarting:50:
+14:33:39.799[main][INFO ]No active profile set, falling back to default profiles: default|||  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+14:33:40.332[main][INFO ]Started PrintAdapterApplication in 0.841 seconds (JVM running for 1.521)|||  c.f.PrintAdapterApplication.logStarted:59:
+14:33:40.333[main][INFO ]开始创建socket|||  c.f.b.MesToAdapterBusiness.start:42:
+14:33:40.336[main][INFO ]Socket服务创建成功|||  c.f.b.MesToAdapterBusiness.start:54:
+14:33:43.019[main][INFO ]IP:127.0.0.1,成功连接到服务器|||  c.f.b.MesToAdapterBusiness.start:57:
+14:33:43.073[main][INFO ]Socket服务创建成功|||  c.f.b.MesToAdapterBusiness.start:54:
+14:33:43.074[pool-2-thread-1][INFO ]开始接收电文,IP:127.0.0.1|||  c.f.j.MesToAdapterJob.run:57:
+14:33:44.578[pool-2-thread-1][INFO ]收到电文内容:130T      Standardlabelcouple 01Print     008                    P00011001 P0002000821000572P00030021210005721904Z21000424P000400102019-04-16P00051001 P0006000821000009P00070021210000091904Z21000426P000800102019-04-16,IP:127.0.0.1|||  c.f.j.MesToAdapterJob.run:69:
+14:33:44.623[pool-2-thread-1][INFO ]收到电文CBOP应答电文:130T      NG|||  c.f.j.MesToAdapterJob.run:105:
+14:34:26.801[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 8660 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)|^END^|  c.f.PrintAdapterApplication.logStarting:50:
+14:34:26.803[main][INFO ]No active profile set, falling back to default profiles: default|^END^|  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+14:34:27.351[main][INFO ]Started PrintAdapterApplication in 0.861 seconds (JVM running for 1.573)|^END^|  c.f.PrintAdapterApplication.logStarted:59:
+14:34:27.353[main][INFO ]开始创建socket|^END^|  c.f.b.MesToAdapterBusiness.start:42:
+14:34:27.356[main][INFO ]Socket服务创建成功|^END^|  c.f.b.MesToAdapterBusiness.start:54:
+14:34:40.109[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 860 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)||  c.f.PrintAdapterApplication.logStarting:50:
+14:34:40.112[main][INFO ]No active profile set, falling back to default profiles: default||  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+14:34:40.638[main][INFO ]Started PrintAdapterApplication in 0.832 seconds (JVM running for 1.587)||  c.f.PrintAdapterApplication.logStarted:59:
+14:34:40.639[main][INFO ]开始创建socket||  c.f.b.MesToAdapterBusiness.start:42:
+14:34:40.641[main][INFO ]Socket服务创建成功||  c.f.b.MesToAdapterBusiness.start:54:
+14:41:11.421[main][INFO ]IP:127.0.0.1,成功连接到服务器||  c.f.b.MesToAdapterBusiness.start:57:
+14:41:11.425[main][INFO ]Socket服务创建成功||  c.f.b.MesToAdapterBusiness.start:54:
+14:41:11.428[pool-2-thread-1][INFO ]开始接收电文,IP:127.0.0.1||  c.f.j.MesToAdapterJob.run:57:
+14:41:12.800[pool-2-thread-1][INFO ]收到电文内容:130T      Standardlabelcouple 01Print     008                    P00011001 P0002000821000572P00030021210005721904Z21000424P000400102019-04-16P00051001 P0006000821000009P00070021210000091904Z21000426P000800102019-04-16,IP:127.0.0.1||  c.f.j.MesToAdapterJob.run:69:
+14:41:12.842[pool-2-thread-1][INFO ]收到电文CBOP应答电文:130T      NG||  c.f.j.MesToAdapterJob.run:105:
+14:41:56.982[main][INFO ]IP:127.0.0.1,成功连接到服务器||  c.f.b.MesToAdapterBusiness.start:57:
+14:41:56.983[main][INFO ]Socket服务创建成功||  c.f.b.MesToAdapterBusiness.start:54:
+14:41:56.983[pool-2-thread-2][INFO ]开始接收电文,IP:127.0.0.1||  c.f.j.MesToAdapterJob.run:57:
+14:41:57.325[pool-2-thread-2][INFO ]远程主动断开连接,IP:127.0.0.1||  c.f.j.MesToAdapterJob.run:63:
+14:42:02.893[main][INFO ]IP:127.0.0.1,成功连接到服务器||  c.f.b.MesToAdapterBusiness.start:57:
+14:42:02.894[main][INFO ]Socket服务创建成功||  c.f.b.MesToAdapterBusiness.start:54:
+14:42:02.894[pool-2-thread-3][INFO ]开始接收电文,IP:127.0.0.1||  c.f.j.MesToAdapterJob.run:57:
+14:42:03.318[pool-2-thread-3][INFO ]远程主动断开连接,IP:127.0.0.1||  c.f.j.MesToAdapterJob.run:63:
+14:45:31.164[main][INFO ]IP:127.0.0.1,成功连接到服务器||  c.f.b.MesToAdapterBusiness.start:57:
+14:45:31.164[main][INFO ]Socket服务创建成功||  c.f.b.MesToAdapterBusiness.start:54:
+14:45:31.165[pool-2-thread-4][INFO ]开始接收电文,IP:127.0.0.1||  c.f.j.MesToAdapterJob.run:57:
+14:45:36.168[pool-2-thread-4][ERROR]发生系统异常||  c.f.j.MesToAdapterJob.run:111:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:127)
+	at com.fujitsu.job.MesToAdapterJob.run(MesToAdapterJob.java:59)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+14:46:00.409[main][INFO ]IP:127.0.0.1,成功连接到服务器||  c.f.b.MesToAdapterBusiness.start:57:
+14:46:00.410[main][INFO ]Socket服务创建成功||  c.f.b.MesToAdapterBusiness.start:54:
+14:46:00.410[pool-2-thread-5][INFO ]开始接收电文,IP:127.0.0.1||  c.f.j.MesToAdapterJob.run:57:
+14:46:05.410[pool-2-thread-5][ERROR]发生系统异常||  c.f.j.MesToAdapterJob.run:111:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:127)
+	at com.fujitsu.job.MesToAdapterJob.run(MesToAdapterJob.java:59)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+14:46:45.817[main][INFO ]IP:127.0.0.1,成功连接到服务器||  c.f.b.MesToAdapterBusiness.start:57:
+14:46:45.818[main][INFO ]Socket服务创建成功||  c.f.b.MesToAdapterBusiness.start:54:
+14:46:45.818[pool-2-thread-6][INFO ]开始接收电文,IP:127.0.0.1||  c.f.j.MesToAdapterJob.run:57:
+14:46:50.819[pool-2-thread-6][ERROR]发生系统异常||  c.f.j.MesToAdapterJob.run:111:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:127)
+	at com.fujitsu.job.MesToAdapterJob.run(MesToAdapterJob.java:59)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+14:49:39.931[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 1080 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)||  c.f.PrintAdapterApplication.logStarting:50:
+14:49:39.934[main][INFO ]No active profile set, falling back to default profiles: default||  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+14:49:40.477[main][INFO ]Started PrintAdapterApplication in 0.871 seconds (JVM running for 1.572)||  c.f.PrintAdapterApplication.logStarted:59:
+14:49:40.478[main][INFO ]开始创建socket||  c.f.b.MesToAdapterBusiness.start:42:
+14:49:40.481[main][INFO ]Socket服务创建成功||  c.f.b.MesToAdapterBusiness.start:54:
+14:50:31.100[main][INFO ]IP:127.0.0.1,成功连接到服务器||  c.f.b.MesToAdapterBusiness.start:57:
+14:50:31.111[main][INFO ]Socket服务创建成功||  c.f.b.MesToAdapterBusiness.start:54:
+14:50:31.113[pool-2-thread-1][INFO ]开始接收电文,IP:127.0.0.1||  c.f.j.MesToAdapterJob.run:60:
+14:55:25.680[pool-2-thread-1][ERROR]发生系统异常||  c.f.j.MesToAdapterJob.run:117:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:127)
+	at com.fujitsu.job.MesToAdapterJob.run(MesToAdapterJob.java:62)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+14:57:09.220[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 9340 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)||  c.f.PrintAdapterApplication.logStarting:50:
+14:57:09.223[main][INFO ]No active profile set, falling back to default profiles: default||  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+14:57:09.745[main][INFO ]Started PrintAdapterApplication in 0.845 seconds (JVM running for 1.561)||  c.f.PrintAdapterApplication.logStarted:59:
+14:57:09.746[main][INFO ]开始创建socket||  c.f.b.MesToAdapterBusiness.start:42:
+14:57:09.748[main][INFO ]Socket服务创建成功||  c.f.b.MesToAdapterBusiness.start:54:
+14:57:15.455[main][INFO ]IP:127.0.0.1,成功连接到服务器||  c.f.b.MesToAdapterBusiness.start:57:
+14:57:15.462[main][INFO ]Socket服务创建成功||  c.f.b.MesToAdapterBusiness.start:54:
+14:57:15.464[pool-2-thread-1][INFO ]开始接收电文,IP:127.0.0.1||  c.f.j.MesToAdapterJob.run:60:
+14:57:41.110[pool-2-thread-1][ERROR]发生系统异常||  c.f.j.MesToAdapterJob.run:120:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:127)
+	at com.fujitsu.job.MesToAdapterJob.run(MesToAdapterJob.java:62)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+14:57:47.115[main][INFO ]Starting PrintAdapterApplication on DESKTOP-CKOOEP6 with PID 10600 (D:\_GIT\print-adapter\target\classes started by mark in D:\_GIT\print-adapter)||  c.f.PrintAdapterApplication.logStarting:50:
+14:57:47.118[main][INFO ]No active profile set, falling back to default profiles: default||  c.f.PrintAdapterApplication.logStartupProfileInfo:648:
+14:57:47.663[main][INFO ]Started PrintAdapterApplication in 0.866 seconds (JVM running for 1.595)||  c.f.PrintAdapterApplication.logStarted:59:
+14:57:47.664[main][INFO ]开始创建socket||  c.f.b.MesToAdapterBusiness.start:42:
+14:57:47.666[main][INFO ]Socket服务创建成功||  c.f.b.MesToAdapterBusiness.start:54:
+14:59:48.540[main][INFO ]IP:127.0.0.1,成功连接到服务器||  c.f.b.MesToAdapterBusiness.start:57:
+14:59:48.544[main][INFO ]Socket服务创建成功||  c.f.b.MesToAdapterBusiness.start:54:
+14:59:48.546[pool-2-thread-1][INFO ]开始接收电文,IP:127.0.0.1||  c.f.j.MesToAdapterJob.run:60:
+14:59:53.547[pool-2-thread-1][ERROR]客户端连接后,未在指定时间范围内发送数据,服务器主动断开连接||  c.f.j.MesToAdapterJob.run:117:
+14:59:59.587[main][INFO ]IP:127.0.0.1,成功连接到服务器||  c.f.b.MesToAdapterBusiness.start:57:
+14:59:59.588[main][INFO ]Socket服务创建成功||  c.f.b.MesToAdapterBusiness.start:54:
+14:59:59.588[pool-2-thread-2][INFO ]开始接收电文,IP:127.0.0.1||  c.f.j.MesToAdapterJob.run:60:
+15:00:00.762[pool-2-thread-2][INFO ]收到电文内容:130X      Standardlabelcouple 01Print     008                    P00011001 P0002000821000572P00030021210005721904Z21000424P000400102019-04-16P00051001 P0006000821000009P00070021210000091904Z21000426P000800102019-04-16,IP:127.0.0.1||  c.f.j.MesToAdapterJob.run:72:
+15:00:00.771[pool-2-thread-2][ERROR]当前打印机未配置远程CBOP的IP,打印机名称:130X||  c.f.j.MesToAdapterJob.run:85:
+15:00:17.754[main][INFO ]IP:127.0.0.1,成功连接到服务器||  c.f.b.MesToAdapterBusiness.start:57:
+15:00:17.754[main][INFO ]Socket服务创建成功||  c.f.b.MesToAdapterBusiness.start:54:
+15:00:17.755[pool-2-thread-3][INFO ]开始接收电文,IP:127.0.0.1||  c.f.j.MesToAdapterJob.run:60:
+15:00:22.755[pool-2-thread-3][ERROR]客户端连接后,未在指定时间范围内发送数据,服务器主动断开连接||  c.f.j.MesToAdapterJob.run:117:
+15:00:25.631[main][INFO ]IP:127.0.0.1,成功连接到服务器||  c.f.b.MesToAdapterBusiness.start:57:
+15:00:25.632[main][INFO ]Socket服务创建成功||  c.f.b.MesToAdapterBusiness.start:54:
+15:00:25.632[pool-2-thread-4][INFO ]开始接收电文,IP:127.0.0.1||  c.f.j.MesToAdapterJob.run:60:
+15:00:26.864[pool-2-thread-4][INFO ]收到电文内容:130T      Standardlabelcouple 01Print     008                    P00011001 P0002000821000572P00030021210005721904Z21000424P000400102019-04-16P00051001 P0006000821000009P00070021210000091904Z21000426P000800102019-04-16,IP:127.0.0.1||  c.f.j.MesToAdapterJob.run:72:
+15:00:26.893[pool-2-thread-4][INFO ]收到电文CBOP应答电文:130T      NG||  c.f.j.MesToAdapterJob.run:111:
+19:41:28.394[main][INFO ]Starting PrintAdapterApplicationTests on DESKTOP-CKOOEP6 with PID 4076 (started by mark in D:\_GIT\print-adapter)||  c.f.PrintAdapterApplicationTests.logStarting:50:
+19:41:28.398[main][INFO ]No active profile set, falling back to default profiles: default||  c.f.PrintAdapterApplicationTests.logStartupProfileInfo:648:
+19:41:28.900[main][INFO ]Started PrintAdapterApplicationTests in 0.747 seconds (JVM running for 1.837)||  c.f.PrintAdapterApplicationTests.logStarted:59:
+19:41:28.901[main][INFO ]开始创建socket||  c.f.b.MesToAdapterBusiness.start:42:
+19:41:28.905[main][INFO ]Socket服务创建成功||  c.f.b.MesToAdapterBusiness.start:54:
+19:41:43.097[main][INFO ]Starting PrintAdapterApplicationTests on DESKTOP-CKOOEP6 with PID 16476 (started by mark in D:\_GIT\print-adapter)||  c.f.PrintAdapterApplicationTests.logStarting:50:
+19:41:43.099[main][INFO ]No active profile set, falling back to default profiles: default||  c.f.PrintAdapterApplicationTests.logStartupProfileInfo:648:
+19:41:43.560[main][INFO ]Started PrintAdapterApplicationTests in 0.659 seconds (JVM running for 1.841)||  c.f.PrintAdapterApplicationTests.logStarted:59:
+19:41:43.561[main][INFO ]开始创建socket||  c.f.b.MesToAdapterBusiness.start:42:
+19:41:43.565[main][INFO ]Socket服务创建成功||  c.f.b.MesToAdapterBusiness.start:54:

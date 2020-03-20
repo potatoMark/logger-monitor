@@ -1,0 +1,24 @@
+spring:
+  datasource:       #数据源配置
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@db:1521:orcl
+    username: flowable
+    password: test
+    hikari:
+      maxLifetime: 600000
+      idleTimeout: 300000
+      minimumIdle: 5
+      maximumPoolSize: 50
+  liquibase:
+    enabled: false
+
+  flowable:
+    database-schema-update: true
+    process-definition-location-suffixes:
+      - '**.bpmn20.xml'
+      - '**.bpmn'
+      - '**.form'
+      - '**.zip'
+
+server:
+  port: 8191

@@ -96,7 +96,7 @@ public class MesToAdapterJob extends Thread {
 
             _cbopIs = _cbopSocket.getInputStream();
 
-            _cbopOs.write(buf);
+            _cbopOs.write(subBytes(buf, 0, _recv));
             _cbopOs.flush();
             byte[] cbopbuf = new byte[9999];
             int re = _cbopIs.read(cbopbuf);
