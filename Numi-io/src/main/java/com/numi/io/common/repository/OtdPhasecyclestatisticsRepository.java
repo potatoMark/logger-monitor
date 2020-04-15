@@ -1,0 +1,23 @@
+package com.numi.io.common.repository;
+
+import com.numi.io.common.entities.BrNgavsEntityactual;
+import com.numi.io.common.entities.OtdPhasecyclestatistics;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
+
+import javax.transaction.Transactional;
+import java.time.LocalDate;
+
+@Transactional
+@Repository
+public interface OtdPhasecyclestatisticsRepository extends JpaRepository<OtdPhasecyclestatistics, Integer> {
+
+
+    @Modifying
+    @Query(value = "delete from otd_phasecyclestatistics where otd_workdate >= ?1 ",nativeQuery = true)
+    void deleteWorkDate(LocalDate localDate);
+
+
+}
